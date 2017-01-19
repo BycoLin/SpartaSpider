@@ -1,9 +1,10 @@
 
-spartaSpider简介
+SpartaSpider简介
 
-spartaSpider是基于搜狗微信的爬虫,使用python语言和scrapy框架，实现了爬取主页中各分类各页数据，爬取和更新公众号信息，爬取和更新文章信息，搜索关键字信息，发表特定文章到wordpress上等等。
+SpartaSpider是基于搜狗微信的爬虫,使用python语言和scrapy框架，实现了爬取主页中各分类各页数据，爬取和更新公众号信息，爬取和更新文章信息，搜索关键字信息，发表特定文章到wordpress上等等。
 
 主要的文件的详细功能列表如下：
+
 item.py:
 	
 	SpartaTagInfoItem #类别信息临时结构
