@@ -77,4 +77,4 @@ sparta_publish_wp: #发表文章到wordpress
 	echo "(3):  ./sparta.sh sparta_url      //临时文章表取特定数目文章url爬取文章具体信息"
 	echo "(4):  ./sparta.sh sparta_search   //搜索特定关键字返回的信息"
 
-问题和技术交流: 745226897
+问题和技术交流QQ: 745226897
