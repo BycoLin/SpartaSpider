@@ -12,7 +12,7 @@
 * 发表特定文章到wordpress上
 * 待续。。。
 
-### 主要的文件的详细功能列表如下： ###
+### 主要文件的功能介绍： ###
 
 #### item.py:
 * SpartaTagInfoItem #类别信息临时结构
@@ -35,34 +35,34 @@
 	
 #### sparta_base.py: ####
 * get #封装request库get方法
-* get_html_and_carry_item ##封装request库get方法,并可携带数据
+* get_html_and_carry_item #封装request库get方法,并可携带数据
 * getElemText #抽取lxml.etree库中elem对象中文字
 * getSearchGzhText #通过搜狗搜索获取关键字返回的文本
 * replace_html #替换转义内容为正常内容
 	
 #### sparta_db.py:
-* #封装了pymysql的类
+* 封装了pymysql的类
 	
 #### sparta_define.py: 
-* #宏定义
+* 宏定义
 	
 #### sparta_gzh_url.py:
-* #热门公众号信息拉取和更新
+* 热门公众号信息拉取和更新
 
 #### sparta_url.py: 
-* #爬取文章具体信息
+* 爬取文章具体信息
 
 #### sparta_index.py:
-* #爬取搜狗微信主页各类别各页数据
+* 爬取搜狗微信主页各类别各页数据
 
 #### sparta_search.py:
-* #搜索特定关键字返回的信息
+* 搜索特定关键字返回的信息
 
 #### sparta_config.py: 
-* #配置信息
+* 配置信息
 
 #### sparta_publish_wp: 
-* #发表文章到wordpress
+* 发表文章到wordpress
 
 ### 使用方法： ###
 * sparta.sh sparta_index    //爬取搜狗微信主页各类别各页数据入临时公众号表和热点文章表中
