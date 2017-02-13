@@ -2,7 +2,7 @@
 # SpartaSpider
 
 ### 简介: ###
-	SpartaSpider是基于搜狗微信的爬虫,主要爬取微信公众号信息和公众号文章信息，使用python语言和scrapy框架。
+	SpartaSpider是基于搜狗微信的爬虫,主要获取微信公众号信息和公众号文章信息，使用python语言和scrapy框架。
 
 ### 主要实现的功能有: ###
 * 爬取主页中各分类各页数据
