@@ -65,7 +65,7 @@
 * 发表文章到wordpress
 
 ### 使用方法： ###
-* sparta.sh sparta_index    //爬取搜狗微信主页各类别各页数据插入临时公众号表和热点文章数据库表中
+* sparta.sh sparta_index    //爬取搜狗微信主页各类别的各页数据插入临时公众号表和热点文章数据库表中
 * sparta.sh sparta_gzh_url  //临时公众号表取特定数目公众号url爬取公众号具体信息和文章临时信息
 * sparta.sh sparta_url      //临时文章表取特定数目文章的url来爬取文章具体信息
 * sparta.sh sparta_search   //搜索特定关键字,返回列表信息
